@@ -6,6 +6,7 @@ import MessagesSection from "./sections/MessagesSection";
 import FlavorSection from "./sections/FlavorSection";
 import { useGSAP } from "@gsap/react";
 import NutritionSection from "./sections/NutritionSection";
+import BenefitSection from "./sections/BenefitSection";
 gsap.registerPlugin(SplitText);
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollSmoother);
@@ -27,6 +28,7 @@ const App = () => {
           <MessagesSection />
           <FlavorSection />
           <NutritionSection />
+          <BenefitSection />
         </div>
       </div>
     </main>
