@@ -9,6 +9,7 @@ import NutritionSection from "./sections/NutritionSection";
 import BenefitSection from "./sections/BenefitSection";
 import VideoPinSection from "./sections/VideoPinSection";
 import TestimonialSection from "./sections/TestimonialSection";
+import FooterSection from "./sections/FooterSection";
 gsap.registerPlugin(SplitText);
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollSmoother);
@@ -34,6 +35,8 @@ const App = () => {
             <BenefitSection />
             <TestimonialSection />
           </div>
+
+          <FooterSection />
         </div>
       </div>
     </main>
